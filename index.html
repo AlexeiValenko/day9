@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title> HTML Forns</title>
+</head>
+<body>
+
+<h1>Let's put it all together :</h1>
+<form action="/form" method="get">
+    Full name: <input type="text" name="name"><br>
+    <br/>
+    Password: <input type="password" name="password"><br>
+    <br/>
+    <br/>
+
+    <label for="country">Country</label>
+        <select id="country" name="country">
+            <option id="select">Select your country</option>
+            <option id="china">China</option>
+            <option id="israel">Israel</option>
+        </select>
+    <br/>
+    <br/>
+
+    <fieldset style="width: 200px;">
+        <input type="radio" name="gender" id="male"/>
+        <lable for="male">I am a Male</lable>
+        <br/>
+        <input type="radio" name="gender" id="female"/>
+        <lable for="female">I am a Female</lable>
+    </fieldset>
+    <br/>
+    <br/>
+
+    <fieldset style="width: 200px;">
+        <legend>Pets Policy</legend>
+        <input type="checkbox" id="dog" name="pet"/>
+        <lable for="dog">I have Dog</lable>
+        <br/>
+        <input type="checkbox" id="cat" name="pet"/>
+        <lable for="cat">I have Cat</lable>
+
+    </fieldset>
+    <br/>
+    <br/>
+
+    <label for="about">Some words about me</label>
+    <textarea id="about" name="about">I am intereted in...</textarea>
+    <br/>
+    <br/>
+
+    <input type="submit">
+
+
+
+</form >
+
+</body>
+</html>
